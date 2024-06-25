@@ -1,0 +1,40 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>tab2</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-button routerLink="/home"
+  class="ion-margin-top ">
+    <ion-icon name="home" slot="start"></ion-icon>
+    Volver a Home
+  </ion-button>
+  <div class="cuerpo_page">
+    <ion-header collapse="condense">
+      <ion-toolbar>
+        <ion-title size="large">Informacion</ion-title>
+        
+      </ion-toolbar>
+    </ion-header>
+    <h3>Usuario: {{nombre}} {{apellido}}</h3>
+    
+    <div>{{nombre2}}</div>
+    
+    <!-- Ponemos la imagen dentro de un ion-grid-->
+    <ion-grid>
+      <ion-row>
+        <ion-col size="12" class="ion-text-center">
+          <img class="logo" src="assets/olodum.png" alt="My Image">
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+    <ion-card>
+      <h1>Batucada, Samba Reggae:</h1>
+      <h3>En el vibrante paisaje musical de Brasil, el Samba Reggae emerge como una explosión de ritmos, colores y cultura. Esta amalgama de estilos, nacida en los barrios marginales de Salvador de Bahía, lleva consigo una historia fascinante que mezcla tradiciones africanas, influencias caribeñas y la esencia del samba brasileño. En este artículo, exploraremos el fascinante origen del Samba Reggae, desde sus raíces hasta su evolución como un símbolo de resistencia y celebración.
+
+          El Samba Reggae tiene sus raíces en la década de 1970, en los barrios periféricos y comunidades afrobrasileñas de Salvador de Bahía, una región rica en historia y diversidad cultural. Este estilo musical nace como una respuesta creativa a las tensiones sociales y políticas de la época, reflejando la lucha por la igualdad y la identidad afrobrasileña. </h3>
+    </ion-card>
+  </div>
+</ion-content>

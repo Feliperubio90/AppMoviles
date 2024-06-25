@@ -1,0 +1,21 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Personajes de Star Wars API</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+ 
+  <ion-list *ngIf="characters.length > 0">
+    <ion-item *ngFor="let character of characters">
+      <ion-label>
+        <h2>{{ character.name }}</h2>
+        <p>Altura: {{ character.height }} cm</p>
+        <p>Peso: {{ character.mass }} kg</p>
+        <p>Género: {{ character.gender }}</p>
+        <p>Año de nacimiento: {{ character.birth_year }}</p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+
+</ion-content>

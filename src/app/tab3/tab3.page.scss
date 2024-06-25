@@ -1,0 +1,36 @@
+ion-card{
+    background-color: transparent;
+}
+
+ion-card-title h3{
+    color: rgb(249, 248, 247);
+    font-size: 1.0em;
+    font-weight: 100;
+}
+
+.grid-center {
+    display: grid;
+    place-items: center;
+    height: 100%;
+}
+ion-card{
+    background-color: #decbcb;
+}
+
+ion-card-title h3{
+    color: rgba(0, 0, 0, 0.992);
+    font-size: 1.0em;
+    font-weight: 300;
+}
+
+.logo {
+    max-width: 50%;
+    height: auto;
+}
+
+ion-card h3{
+    color: rgba(0, 0, 0, 0.992);
+    font-size: 1.0em;
+    font-weight: 300;
+    text-align: justify;
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Batuapp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
